@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumBoxControl", "LabControls\NumBoxControl.csproj", "{F1F7B0EF-0F1C-48C5-817B-BF188257ADFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChoseColor", "Lab2\ChoseColor.csproj", "{C1B65F38-2F0E-42CA-9801-F60F6B6DF5FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clocks", "Clocks\Clocks.csproj", "{4614562B-59D6-49FC-B8D0-3EE04605A3C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1F7B0EF-0F1C-48C5-817B-BF188257ADFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F7B0EF-0F1C-48C5-817B-BF188257ADFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F7B0EF-0F1C-48C5-817B-BF188257ADFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F7B0EF-0F1C-48C5-817B-BF188257ADFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1B65F38-2F0E-42CA-9801-F60F6B6DF5FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B65F38-2F0E-42CA-9801-F60F6B6DF5FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B65F38-2F0E-42CA-9801-F60F6B6DF5FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B65F38-2F0E-42CA-9801-F60F6B6DF5FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4614562B-59D6-49FC-B8D0-3EE04605A3C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4614562B-59D6-49FC-B8D0-3EE04605A3C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4614562B-59D6-49FC-B8D0-3EE04605A3C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4614562B-59D6-49FC-B8D0-3EE04605A3C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A9FE4DE-E415-44AD-8136-F218CB4ED819}
+	EndGlobalSection
+EndGlobal
