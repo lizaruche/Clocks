@@ -58,33 +58,6 @@ namespace Lab2
             if (btnDec.Checked) 
                 ChangeToDec();
         }
-        private void numBox_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            base.OnKeyPress(e);
-            if (!char.IsControl((e.KeyChar)))
-            {
-                if (btnDec.Checked)
-                {
-                    if (sender == numBoxBlue)
-                        this.blue = Convert.ToInt32(this.numBoxBlue.Text + e.KeyChar);
-                    if (sender == numBoxRed)
-                        this.red = Convert.ToInt32(this.numBoxRed.Text + e.KeyChar);
-                    if (sender == numBoxGreen)
-                        this.green = Convert.ToInt32(this.numBoxGreen.Text + e.KeyChar);
-                    this.colorBox.BackColor = Color.FromArgb(red, green, blue);
-                }
-                else
-                {
-                    if (sender == numBoxBlue)
-                        this.blue = int.Parse(this.numBoxBlue.Text, System.Globalization.NumberStyles.HexNumber);
-                    if (sender == numBoxRed)
-                        this.red = int.Parse(this.numBoxRed.Text, System.Globalization.NumberStyles.HexNumber);
-                    if (sender == numBoxGreen)
-                        this.green = int.Parse(this.numBoxGreen.Text, System.Globalization.NumberStyles.HexNumber);
-                    this.colorBox.BackColor = Color.FromArgb(red, green, blue);
-                }
-            }
-        }
         private void numBox_TextChanged(object sender, EventArgs e)
         {
             if (btnDec.Checked)
